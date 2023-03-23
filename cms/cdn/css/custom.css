@@ -1,0 +1,48 @@
+/* Customizações CSS */
+#logo-login {
+	text-align: center;
+}
+
+#logo-top {
+	height:26px;
+}
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.navbar-brand h3 {
+	margin: 0;
+}
+
+.page-header {
+	margin: 20px 0 10px;
+}
+
+.login-footer {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.required {
+	color: #F00;
+}
+
+.comentario {
+	font-weight: 200;
+	font-style: italic;
+}
+
+.lbl {
+	text-align: left;
+}
+
+@media (min-width: 1200px) {
+	.lbl {
+		text-align: right;
+	}
+}
+
+input[type="file"] {
+	margin-top: 8px;
+}
